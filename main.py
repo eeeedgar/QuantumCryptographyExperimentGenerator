@@ -122,7 +122,7 @@ while len(exp1success) < 20 or exp1counter < 52:
     experimentSimple(sy)
     exp1.append(sy)
 
-    if sy.bBit == sy.aBit and len(exp1success) < 20:
+    if sy.bBasis == sy.aBasis and len(exp1success) < 20:
         exp1success.append(sy)
 
     exp1counter += 1
