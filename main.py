@@ -182,5 +182,5 @@ for e in exp2success:
         exp2errors += 1
 
 print('exp 2:')
-print('bases matches:', len(exp1success))
+print('bases matches:', len(exp2success))
 print('errors:', exp2errors)
